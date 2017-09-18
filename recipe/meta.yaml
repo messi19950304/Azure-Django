@@ -1,6 +1,6 @@
 {% set name = "django-anymail" %}
-{% set version = "0.11.1" %}
-{% set sha256 = "04b52e20d8e498090e696f2f597ad047dd6127d6ae34ff97d808dace7bfece79" %}
+{% set version = "1.0" %}
+{% set sha256 = "e36e469aa126261c070e31e80f2e879c563249449262a3cff4e84bb9582a0b89" %}
 
 package:
   name: {{ name|lower }}
@@ -22,6 +22,8 @@ requirements:
   run:
     - python
     - django >=1.8
+    - requests >=2.4.3
+    - six
 
 about:
   home: https://github.com/anymail/django-anymail
