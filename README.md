@@ -16,9 +16,7 @@ It currently fully supports Mailgun, Mailjet, Postmark, SendGrid, and SparkPost,
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-anymail-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-anymail-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-anymail-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-anymail-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-anymail-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-anymail-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/django-anymail-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-anymail-feedstock)
 
 Current release info
 ====================
