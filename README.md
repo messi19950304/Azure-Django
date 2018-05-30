@@ -16,12 +16,15 @@ It currently fully supports Mailgun, Mailjet, Postmark, SendGrid, and SparkPost,
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/django-anymail-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-anymail-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-anymail-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-anymail-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-anymail/badges/version.svg)](https://anaconda.org/conda-forge/django-anymail)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-anymail/badges/downloads.svg)](https://anaconda.org/conda-forge/django-anymail)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-django--anymail-green.svg)](https://anaconda.org/conda-forge/django-anymail) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/django-anymail.svg)](https://anaconda.org/conda-forge/django-anymail) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/django-anymail.svg)](https://anaconda.org/conda-forge/django-anymail) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/django-anymail.svg)](https://anaconda.org/conda-forge/django-anymail) |
 
 Installing django-anymail
 =========================
@@ -66,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
